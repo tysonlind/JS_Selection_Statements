@@ -36,16 +36,16 @@ let size = "";
 
 switch (typeId) {
   case "01":
-    type = "Tank top";
+    type = "Tank top"
     break;
  case "02":
-    type = "T-Shirt";
+    type = "T-Shirt"
     break;
  case "03":
-    type = "Long Sleeve";
+    type = "Long Sleeve"
     break;
  case "04": 
-    type = "Sweat Shirt";
+    type = "Sweat Shirt"
     break;
  default:
     type = "Other"
@@ -53,33 +53,33 @@ switch (typeId) {
 
 switch (colorId) {
   case "BL":
-  color = "Black";
+  color = "Black"
   break;
  case "BL": 
-  color = "Blue";
+  color = "Blue"
   break;
  case "RD": 
-  color = "Red";
+  color = "Red"
   break;
  case "PU": 
-  color = "Purple";
+  color = "Purple"
   break;
  default: 
-  color = "White";
+  color = "White"
 }
 
 switch (sizeId) {
   case "S":
-  size = "Small";
+  size = "Small"
   break;
  case "M":
-  size = "Medium";
+  size = "Medium"
   break;
  case "L":
-  size = "Large";
+  size = "Large"
   break;
  case "XL":
-  size = "Extra Large";
+  size = "Extra Large"
   break;
   default: 
   size = "One Size Fits All";
